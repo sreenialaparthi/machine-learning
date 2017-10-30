@@ -13849,8 +13849,9 @@ woaSnoiIhA0lPRERCRv/D0bo7XintZ6RAAAAAElFTkSuQmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> k-fold cross validation helps to maximum possible use of data by considering test data also for training. The total data will be splitted into k-buckets and train the model for k-times. Then the average of all results will be used.</p>
+<p><strong>Answer: </strong> The total data will be splitted into k-buckets and train the model for k-times. Then the average of all results will be used to get the estimation for cross validation error.</p>
 <p>The k-1 folds will go for training and the remaining fold is considered as test. This happens for k-times by changing the test fold for each iteration.</p>
+<p>The advantage of this method over repeated random sub-sampling is that all observations are used for both training and validation, and each observation is used for validation exactly once.</p>
 
 </div>
 </div>
